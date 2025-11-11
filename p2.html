@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Famous Places in Punjab</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            font-size: 2.8rem;
+            color: #2c3e50;
+            font-weight: 700;
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+            color: #e67e22; /* Punjab theme color */
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        .places-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .place-card {
+            background-color: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .place-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .place-card img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 25px;
+        }
+
+        .card-content h2 {
+            font-size: 1.8rem;
+            margin-top: 0;
+            margin-bottom: 15px;
+            color: #d35400; /* Punjab theme color */
+        }
+
+        .card-content p {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #555;
+            margin-bottom: 10px;
+        }
+        
+        .card-content strong {
+            color: #34495e;
+        }
+
+        .video-link {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #e67e22;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .video-link:hover {
+            background-color: #d35400;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="p.html" class="back-link">← Back to All States</a>
+    <div class="header">
+        <h1>Famous Places in Punjab</h1>
+    </div>
+
+    <div class="places-container">
+        <!-- Amritsar Card -->
+        <div class="place-card">
+            <img src="https://www.holidify.com/images/cmsuploads/compressed/attr_1622_20191211181248.jpg" alt="Amritsar">
+            <div class="card-content">
+                <h2>Amritsar</h2>
+                <p><strong>Top tourist attractions:</strong> Golden Temple, Jallianwala Bagh, Wagah Border Ceremony.</p>
+                <p><strong>Places to stay:</strong> Fairfields by Marriott, Hyatt Regency Amritsar, Ramada by Wyndham.</p>
+                <a href="https://youtu.be/D5-e_BArw0g" target="_blank" class="video-link">Watch Video</a>
+            </div>
+        </div>
+
+        <!-- Chandigarh Card -->
+        <div class="place-card">
+            <img src="https://www.holidify.com/images/cmsuploads/compressed/Chandigarh_20180112181439.jpg" alt="Chandigarh">
+            <div class="card-content">
+                <h2>Chandigarh</h2>
+                <p><strong>Top tourist attractions:</strong> Rock Garden, Sukhna Lake, Zakir Hussain Rose Garden, Pinjore Garden.</p>
+                <p><strong>Places to stay:</strong> Hotel Pride, Hotel Oyester, Ramada Plaza by Wyndham Chandigarh Zirakpur.</p>
+                <a href="https://youtu.be/42_sQ5S24aU" target="_blank" class="video-link">Watch Video</a>
+            </div>
+        </div>
+
+        <!-- Ludhiana Card -->
+        <div class="place-card">
+            <img src="https://www.holidify.com/images/cmsuploads/compressed/shutterstock_1462499099_20200122131926.jpg" alt="Ludhiana">
+            <div class="card-content">
+                <h2>Ludhiana</h2>
+                <p><strong>Top tourist attractions:</strong> Maharaja Ranjit Singh War Museum, Museum of Rural Life, Phillaur Fort.</p>
+                <p><strong>Places to stay:</strong> Park Plaza Ludhiana, Radisson Blu Hotel MBD, Hyatt Regency Ludhiana.</p>
+                <a href="https://youtu.be/oX_a10_qO8o" target="_blank" class="video-link">Watch Video</a>
+            </div>
+        </div>
+
+        <!-- Patiala Card -->
+        <div class="place-card">
+            <img src="https://www.holidify.com/images/cmsuploads/compressed/Sheesh-Mahal-Patiala_20180112181431.jpg" alt="Patiala">
+            <div class="card-content">
+                <h2>Patiala</h2>
+                <p><strong>Top tourist attractions:</strong> Qila Mubarak Complex, Sheesh Mahal, Moti Bagh Palace, Bahadurgarh Fort.</p>
+                <p><strong>Places to stay:</strong> Hotel Mohan Continental, The Shaurya, Hotel Eqbal Inn.</p>
+                <a href="https://youtu.be/L8JRIb_p2uM" target="_blank" class="video-link">Watch Video</a>
+            </div>
+        </div>
+        
+    </div>
+
+</body>
+</html>

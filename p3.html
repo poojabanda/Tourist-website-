@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Famous Places in Himachal Pradesh</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            font-size: 2.8rem;
+            color: #2c3e50;
+            font-weight: 700;
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+            color: #2980b9; /* Himachal theme color */
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        .places-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .place-card {
+            background-color: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .place-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .place-card img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 25px;
+        }
+
+        .card-content h2 {
+            font-size: 1.8rem;
+            margin-top: 0;
+            margin-bottom: 15px;
+            color: #3498db; /* Himachal theme color */
+        }
+
+        .card-content p {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .video-link {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .video-link:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="p.html" class="back-link">← Back to All States</a>
+    <div class="header">
+        <h1>Famous Places in Himachal Pradesh</h1>
+    </div>
+
+    <div class="places-container">
+        <!-- Shimla Card -->
+        <div class="place-card">
+            <img src="https://www.holidify.com/images/cmsuploads/compressed/shutterstock_1009552330_20191211180845.jpg" alt="Shimla">
+            <div class="card-content">
+                <h2>Shimla</h2>
+                <p>The capital city of Himachal, Shimla is a classic hill station known for its colonial architecture, bustling Mall Road, and the scenic Ridge. It offers stunning views of the surrounding Himalayan peaks.</p>
+                <a href="https://youtu.be/p6gJCS3e0A8" target="_blank" class="video-link">Watch Video</a>
+            </div>
+        </div>
+
+        <!-- Manali Card -->
+        <div class="place-card">
+            <img src="https://www.holidify.com/images/cmsuploads/compressed/Manali_20180115160249.jpg" alt="Manali">
+            <div class="card-content">
+                <h2>Manali</h2>
+                <p>Nestled in the Beas River Valley, Manali is a paradise for adventurers and nature lovers. It's the gateway to Solang Valley for skiing and paragliding, and the starting point for treks to Spiti and Ladakh.</p>
+                <a href="https://youtu.be/p6gJCS3e0A8" target="_blank" class="video-link">Watch Video</a>
+            </div>
+        </div>
+
+        <!-- Dharamshala & McLeod Ganj Card -->
+        <div class="place-card">
+            <img src="https://www.holidify.com/images/cmsuploads/compressed/1937_20190425124119.jpg" alt="Dharamshala">
+            <div class="card-content">
+                <h2>Dharamshala</h2>
+                <p>Home to the Dalai Lama, Dharamshala and its upper town, McLeod Ganj, are a hub of Tibetan culture. Visit ancient monasteries, enjoy serene landscapes, and embark on the famous Triund trek.</p>
+                <a href="https://youtu.be/Ci08i__-p1E" target="_blank" class="video-link">Watch Video</a>
+            </div>
+        </div>
+
+        <!-- Spiti Valley Card -->
+        <div class="place-card">
+            <img src="https://www.holidify.com/images/cmsuploads/compressed/dest_wiki_20191104123238.jpg" alt="Spiti Valley">
+            <div class="card-content">
+                <h2>Spiti Valley</h2>
+                <p>A cold desert mountain valley, Spiti is a land of stark beauty and ancient monasteries. It's perfect for adventurous travelers seeking remote landscapes, rugged roads, and a unique cultural experience.</p>
+                <a href="https://youtu.be/AYruK3k_o7A" target="_blank" class="video-link">Watch Video</a>
+            </div>
+        </div>
+
+        <!-- Kasol Card -->
+        <div class="place-card">
+            <img src="https://www.holidify.com/images/cmsuploads/compressed/shutterstock_1184137255_20191211180721.jpg" alt="Kasol">
+            <div class="card-content">
+                <h2>Kasol</h2>
+                <p>Situated on the banks of the Parvati River, Kasol is a haven for backpackers and trekkers. Known as 'Mini Israel,' it offers stunning valley views and is the starting point for the Kheerganga trek.</p>
+                <a href="https://youtu.be/yA9Db22A6k8" target="_blank" class="video-link">Watch Video</a>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

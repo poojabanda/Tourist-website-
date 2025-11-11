@@ -1,0 +1,19 @@
+.h1{
+font-family:"times new roman";
+font-size:4rem;
+font-variant:small-caps;
+}
+.p2{
+font-family:"times new roman";
+font-size:8rem;
+font-variant:small-caps;
+}
+a{
+font-family:"times new roman";
+font-size:2rem;
+}
+img{
+width:300px;
+height:300px;
+border-radius:200px;
+}
